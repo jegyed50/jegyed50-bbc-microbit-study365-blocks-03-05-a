@@ -16,6 +16,8 @@ input.onButtonPressed(Button.B, function () {
         basic.pause(50)
     }
 })
+basic.showIcon(IconNames.Heart)
+music.playTone(131, music.beat(BeatFraction.Whole))
 basic.forever(function () {
 	
 })
