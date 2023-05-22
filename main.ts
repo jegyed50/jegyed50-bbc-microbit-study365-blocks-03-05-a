@@ -18,6 +18,3 @@ input.onButtonPressed(Button.B, function () {
 })
 basic.showIcon(IconNames.Heart)
 music.playTone(131, music.beat(BeatFraction.Whole))
-basic.forever(function () {
-	
-})
